@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="formato.css" />
+    <title>Receitas da Tia Jurema</title>
+
+    <style>
+        main{
+            background-color:rgb(255, 163, 140);
+        }
+    </style>
+</head>
+<body>
+    <header class="d-flex flex-column justify-content-center">
+        <nav class="container-fluid navbar navbar-expand-lg">            
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link link-secondary">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="receitas.html" class="nav-link link-secondary">Receitas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cadastro.html" class="nav-link active" aria-current="page" >Cadastro</a>
+                </li>
+            </ul>            
+        </nav>
+    </header>
+    <main class="container-fluid py-5 ps-3 pe-4 d-flex flex-column justify-content-center align-items-center">
+        <div class="d-block justify-content-center align-items-center col-5">
+            <div class="d-flex justify-content-start">
+                <h1>Efetue seu Cadastro</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+            <form action="mailto:nandacpc@gmail.com" method="get">
+                <div class="row mb-3">
+                    <label for="inputNome" class="col-2 col-form-label">Nome</label>
+                    <div class="col-8">
+                        <input type="text" class="form-control" id="inputNome" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail" class="col-2 col-form-label">E-mail</label>
+                    <div class="col-8">
+                        <input type="email" class="form-control" id="inputEmail" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputCEP" class="col-2 col-form-label">CEP</label>
+                    <div class="col-3">
+                        <input type="text" class="form-control" id="inputCEP" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputRua" class="col-2 col-form-label">Rua</label>
+                    <div class="col-8">
+                        <input type="text" class="form-control" id="inputRua" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputN" class="col-sm-2 col-form-label">Nº</label>
+                    <div class="col-2">
+                        <input type="number" class="form-control" id="inputN" required>
+                    </div>
+                    <label for="inputComplemento" class="col-2 col-form-label">Complemento</label>
+                    <div class="col-4">
+                        <input type="text" class="form-control" id="inputComplemento" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputCidade" class="col-2 col-form-label">Cidade</label>
+                    <div class="col-5">
+                        <input type="text" class="form-control" id="inputCidade" required>
+                    </div>                        
+                    <label for="inputUF" class="col-1 col-form-label">UF</label>
+                    <div class="col-2">
+                        <input type="text" class="form-control" id="inputUF" required>
+                    </div>
+                    <div class="d-flex col-2 ">
+                        <button type="submit" class="btn btn-primary px-5 ms-4">Cadastrar</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        </div>
+    </main>
+    </div>
+    </body>
+</body>
+<footer class="container-fluid bg-black text-center text-white">©Jurema 2023</footer>
+</html>
